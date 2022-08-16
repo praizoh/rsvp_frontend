@@ -6,9 +6,9 @@ import client from "../../apollo-client";
 import { ethers } from "ethers";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useAccount } from "wagmi";
-import connectContract from "../../utils/connectContract";
-import formatTimestamp from "../../utils/formatTimestamp";
-import Alert from "../../components/Alert";
+import connectContract from "../../../utils/connectContract";
+import formatTimestamp from "../../../utils/formatTimestamp";
+import Alert from "../../../components/Alert";
 import {
   EmojiHappyIcon,
   TicketIcon,
