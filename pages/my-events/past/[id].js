@@ -2,7 +2,7 @@ import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import { gql } from "@apollo/client";
-import client from "../../apollo-client";
+import client from "../../../apollo-client";
 import { ethers } from "ethers";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useAccount } from "wagmi";
