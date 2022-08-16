@@ -45,7 +45,6 @@ export default function CreateEvent() {
       } else {
         console.log("Form successfully submitted!");
         let responseJSON = await response.json();
-        console.log(responseJSON)
         await createEvent(responseJSON.cid);
       }
       // check response, if success is false, dont take them to success page
